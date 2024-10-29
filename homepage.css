@@ -1,0 +1,142 @@
+.background {
+    background-color: rgb(44,53,57);
+    background-image: url('https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_SuperMarioOdyssey_image1280w.jpg');
+}
+
+.title{
+    text-align: center; /* Aligns the text to the center */
+    font-size: 3em; 
+    border: 2px solid #000000;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);     display: inline-block;
+    background-color: hsl(0, 0%, 20%);
+}
+
+/*navigation bar start*/
+.navbar-container {
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    padding-bottom: 1%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: hsl(0, 0%, 20%);
+}
+
+li {
+    float: left;
+}
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 1em;
+    }
+
+        li a:hover {
+            background-color: #20060600;
+        }
+/*end of navigation bar */
+
+.content {
+    margin-top: -50px;
+    width: 70%;
+    float: unset;
+    margin-left: auto;
+    background-color: #f0c800;
+    margin-right: auto;
+    padding-top: 2px;
+    padding: 20px 0; 
+    text-align: center;
+}
+
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: rgb(21, 27, 31);
+    text-align: center;
+}
+
+.card {
+    overflow: hidden;
+    padding: 20px;
+    border-top: 5px;
+    border-bottom: 5px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: rgb(135,138,136);
+    border-style: solid;
+    height: auto;
+}
+
+.card-text {
+    float: inline-end;
+    width: 65%;
+    font-size: 4vw;
+    margin-top: -50px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.card-img {
+    float: inline-start;
+    width: 35%;
+    min-width: 100px;
+    border-radius: 10px;
+    height: inherit;
+}
+
+.subcard {
+    overflow: hidden;
+    padding: 20px;
+    border-top: 5px;
+    border-bottom: 5px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: rgb(135,138,136);
+    border-style: solid;
+    height: auto;
+}
+
+.subcard-text {
+    float: inline-end;
+    width: 65%;
+    font-size: 3vw;
+    margin-top: -50px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.subcard-img {
+    float: inline-start;
+    width: 35%;
+    min-width: 100px;
+    border-radius: 10px;
+    height: 15vw;
+}
+
+#introduction {
+    margin-top: -20px;
+}
+
+h3 {
+    font-size: 45px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h2 {
+    font-size: 65px;
+}
+
+h1 {
+    font-size: 85px;
+}

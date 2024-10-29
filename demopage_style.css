@@ -1,0 +1,134 @@
+/*navigation bar start*/
+body{
+  background-color: darkgray;
+  margin: 0;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  height: 100vh; 
+}
+
+.background{
+background-color: rgb(44,53,57);
+background-image: url('https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_SuperMarioOdyssey_image1280w.jpg');
+}
+
+.content{   
+margin-top: -50px; 
+width: 70%;
+float: unset;
+margin-left: auto;
+background-color: #f0c800;
+margin-right: auto;
+padding-top: 2px;
+}
+
+.header {
+  background-color: #33333300; /* Background color of the header */
+  padding: 20px 0; 
+  text-align: center;
+}
+
+.Demo-title {
+  text-align: center; /* Aligns the text to the center */
+  font-size: 3em; /* Adjust the font size as needed */
+  border: 2px solid #000000;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: #ffffff; /* Text color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);     display: inline-block;
+  background-color: hsl(0, 0%, 20%);
+}
+
+
+.navbar-container {
+  display: flex;
+  justify-content: center; /* Center items horizontally */
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: hsl(0, 0%, 20%);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #20060600;
+}
+
+.wrapper{
+  width: 70%;
+  margin: auto;
+}
+
+.demo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  margin-top: 2%;
+  margin-left: auto; /* Push the container to the center */
+  margin-right: auto; /* Push the container to the center */
+  width: 70%; /* Adjust the width of */
+}
+
+/* Style for each demo */
+.demo-1,
+.demo-2,
+.demo-3,
+.demo-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: calc(100% - 1px);
+  align-items: center; /* Center items horizontally */
+  border: 3px solid #000000; 
+  border-radius: 5px;
+  margin-bottom: 20px; /* Add margin between demos */
+  margin-left: auto; /* Push the container to the center */
+  margin-right: auto; /* Push the container to the center */
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+/* Style the text section */
+.text-section,
+.text-section-2,
+.text-section-3,
+.text-section-4 {
+  width: 45%; 
+  padding: 10px; 
+  text-align: left;
+}
+
+/* Style the game section */
+.game-section,
+.game-section-2,
+.game-section-3,
+.game-section-4 {
+  width: 60%; 
+  padding: 10px; /* Add padding for space around game */
+}
+
+/* Adjust the size of the iframe */
+.game-section iframe,
+.game-section-2 iframe,
+.game-section-3 iframe,
+.game-section-4 iframe {
+  width: 100%; /* Use full width of the game section */
+  height: 250px; 
+}
+
